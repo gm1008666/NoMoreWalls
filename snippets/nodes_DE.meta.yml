@@ -1,5 +1,5 @@
 proxies:
-- name: 🍥16@oneclickvpnkeys
+- name: 德国
   password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
   port: 443
   server: pixelcast.wwwinternetvideo.click
@@ -31,13 +31,13 @@ proxies:
   sni: ndge4.whit3.net
   tls: false
   type: hysteria2
-- name: 'کانال تلگرام : Free_VPN_CH@'
+- name: 🇩🇪 - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 181.214.99.162
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -70,29 +70,5 @@ proxies:
   server: de.1.23.h2corp.org
   skip-cert-verify: true
   sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: Telegram@VPNjey🇩🇪🇩🇪
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNJey
-  port: 37003
-  server: 1.1.1.1
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 'Telegram@VPNjey🇩🇪🇩🇪 #1'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
   tls: false
   type: hysteria2
