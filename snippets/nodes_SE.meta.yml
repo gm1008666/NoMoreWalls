@@ -35,9 +35,9 @@ proxies:
     headers:
       Host: sub.merky.top
     path: /merky-connect/de6/
-- name: 🇸🇪SE_1|1.2MB/s
+- name: 🇸🇪SE_1|3.0MB/s
   port: 443
-  server: 217.210.129.243
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
