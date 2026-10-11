@@ -22,6 +22,19 @@ proxies:
     headers:
       Host: cf3.schzyc.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
+- name: 🇸🇪SE_1|3.7MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_2|3.1MB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇸🇪 瑞典 | SWE
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   port: 1020
