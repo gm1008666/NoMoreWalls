@@ -66,9 +66,9 @@ proxies:
   server: 51.222.12.127
   type: ss
 - cipher: aes-256-cfb
-  name: 🇨🇦CA_3|3.0MB/s
+  name: '🇨🇦 加拿大 | CAN #1'
   password: amazonskr05
   port: 443
-  server: 15.175.220.220
+  server: 3.97.11.240
   type: ss
   udp: true

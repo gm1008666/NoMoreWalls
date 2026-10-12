@@ -31,11 +31,3 @@ proxies:
   sni: ch-wy.9999231.xyz
   type: anytls
   udp: true
-- name: 🇨🇭 瑞士 | CHE 3
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1024
-  server: 67agpcp5.zf-mix.9999231.xyz
-  skip-cert-verify: true
-  sni: ch-wy.9999231.xyz
-  type: anytls
-  udp: true
