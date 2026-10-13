@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 🇹🇷[www.v2nodes.com] ss-TR-1567...
-  password: l2NidZbckMu4PnIHsJTYJg
-  port: 1468
-  server: www.asamping.ir
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪[www.v2nodes.com] ss-DE-1592...
   password: NcAXc0UZI6yQJE1p8QmOv8
@@ -16,10 +10,4 @@ proxies:
   port: 443
   server: cuddly-sheepdog.rooster465.autos
   sni: cuddly-sheepdog.rooster465.autos
-  type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
-  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
-  port: 443
-  server: ger2.fytpn.com
-  skip-cert-verify: false
   type: trojan
