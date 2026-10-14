@@ -70,9 +70,3 @@ proxies:
   port: 8388
   server: 70.34.212.124
   type: ss
-- name: 🇸🇪SE_1|1.2MB/s
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
