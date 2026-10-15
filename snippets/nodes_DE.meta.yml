@@ -30,7 +30,7 @@ proxies:
 - alpn:
   - http/1.1
   encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
   network: ws
   port: 2087
   server: hoert1rert.localip.ir
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: hoert1rert.localip.ir
     path: /hokm
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
   port: 443
   server: de2.balancer.vbuste-bot.com
   tls: false
@@ -52,7 +52,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
   network: ws
   port: 2083
   server: 31.59.216.162
@@ -62,6 +62,21 @@ proxies:
   uuid: ce29a04d-c95a-4451-9518-bae0c074e0d7
   ws-opts:
     path: /vless-ws
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  network: ws
+  port: 2087
+  server: fert1qswdfegrthy.localip.ir
+  servername: fert1qswdfegrthy.localip.ir
+  tls: true
+  type: vless
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  ws-opts:
+    headers:
+      Host: fert1qswdfegrthy.localip.ir
+    path: /hokm
 - alpn:
   - http/1.1
   encryption: none
@@ -78,13 +93,20 @@ proxies:
     headers:
       Host: tuyiuoyuthgfdbf.localip.ir
     path: /hokm
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+  network: ws
   port: 2087
   server: fert6.localip.ir
-  tls: false
+  servername: fert6.localip.ir
+  tls: true
   type: vless
   uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   ws-opts:
+    headers:
+      Host: fert6.localip.ir
     path: /hokm
 - name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
   port: 2443
@@ -100,39 +122,76 @@ proxies:
   uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   ws-opts:
     path: /vless-ws
-- name: 🇩🇪DE_1|1016KB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
+- name: 🇩🇪DE_1|1.3MB/s
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|2.7MB/s
-  password: None
+- name: 🇩🇪DE_2|1.1MB/s
+  port: 80
+  server: 57.131.128.2
+  type: http
+- name: 🇩🇪DE_3|3.5MB/s
   port: 443
-  server: 149.36.50.129
+  server: 193.233.75.115
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|2.5MB/s
+- name: 🇩🇪DE_4|3.0MB/s
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.8MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|1.5MB/s
+- name: 🇩🇪DE_6|3.4MB/s
   port: 443
-  server: 152.233.20.206
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|1.9MB/s
+- name: 🇩🇪DE_7|2.0MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.6MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|2.0MB/s
   port: 443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  name: 🇩🇪DE_10|2.7MB/s
+  network: ws
+  port: 443
+  server: 103.160.59.198
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #2'
   network: ws

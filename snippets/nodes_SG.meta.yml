@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #12'
+  name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
   port: 443
-  server: cf.130519.xyz
+  server: cf.090227.xyz
   servername: ccc.010304.xyz
   tls: true
   type: vless
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alpn:
   - http/1.1
-  name: 🇪🇸[www.v2nodes.com] vless-ES-2...
+  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
   network: ws
   port: 443
   server: 188.114.97.6
@@ -38,21 +38,15 @@ proxies:
     headers:
       Host: vms.lifetime35.workers.dev
     path: /
-- name: '🇭🇰[www.v2nodes.com] vless-HK-1... #8'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: lucasjow.us.ci
-  tls: true
+- name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  port: 57541
+  server: funagfrdfs.alixxplay.com
+  tls: false
   type: vless
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  ws-opts:
-    headers:
-      Host: lucasjow.us.ci
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: firefox
   encryption: none
-  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   network: ws
   port: 443
   server: 45.118.133.249
@@ -65,9 +59,15 @@ proxies:
     headers:
       Host: free.nadun.store
     path: /
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  port: 16263
+  server: 47.237.74.17
+  tls: false
+  type: vless
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
 - client-fingerprint: chrome
   encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
   network: ws
   port: 2096
   server: 139.162.27.96
@@ -89,7 +89,8 @@ proxies:
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: UX82473651
   port: 443
-  server: 47.131.250.125
+  server: simple-molly.rooster465.autos
+  sni: simple-molly.rooster465.autos
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
   password: UX82473651
@@ -142,10 +143,28 @@ proxies:
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #9'
   password: UX82473651
   port: 443
+  server: musical-mouse.rooster465.autos
+  sni: musical-mouse.rooster465.autos
+  type: trojan
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #10'
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 139.180.146.200
+  sni: 139.180.146.200
+  type: trojan
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #11'
+  password: UX82473651
+  port: 443
+  server: inviting-ferret.rooster465.autos
+  sni: inviting-ferret.rooster465.autos
+  type: trojan
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #12'
+  password: UX82473651
+  port: 443
   server: pet-antelope.rooster465.autos
   sni: pet-antelope.rooster465.autos
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #10'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #13'
   password: UX82473651
   port: 443
   server: real-cardinal.rooster465.autos
@@ -189,24 +208,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: unsafe
-  encryption: none
-  name: 🇸🇬SG_1|1.8MB/s
-  network: ws
-  port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
+- name: 🇸🇬SG_1|1.8MB/s
+  password: None
+  port: 9090
+  server: 128.199.254.13
+  type: http
 - client-fingerprint: chrome
   name: '🇸🇬 新加坡 | SGP #1'
   network: ws

@@ -7,18 +7,22 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🍂67@oneclickvpnkeys
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  sni: finkawwwbroy5.qcloud.surf
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  network: ws
+  port: 80
+  server: platform101.golnamakcert.top
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    headers:
+      Host: platform101.halalkhor.info
+    path: /platform101
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #5'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
   network: ws
   port: 443
   server: 104.21.70.22
@@ -31,21 +35,11 @@ proxies:
     headers:
       Host: luminouspetal.cyou
     path: /raccoonwsvless
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #1'
-  network: tcp
-  port: 10443
-  server: 193.233.130.119
-  servername: 193.233.130.119
-  tls: false
-  type: vless
-  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
-  ws-opts:
-    path: /
 - alpn:
   - h3
   - http/1.1
   client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #7'
   network: ws
   port: 443
   server: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
@@ -57,44 +51,6 @@ proxies:
     headers:
       Host: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
     path: /ws/b8e59255-d392-c427-535d-bc1f8f444c4e
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1598...
-  password: '!!str 123456'
-  port: 46008
-  server: 95.169.3.45
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #8'
-  password: '!!str 123456'
-  port: 46007
-  server: 95.169.3.45
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #2'
-  password: '!!str 123456'
-  port: 46003
-  server: 95.169.3.45
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #15'
-  password: '!!str 123456'
-  port: 46009
-  server: 95.169.3.45
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #4'
-  password: '!!str 123456'
-  port: 46013
-  server: 95.169.3.45
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1596...
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 20006
-  server: ss.043.node-for-bigairport.win
-  type: ss
 - name: '🇺🇸 美国 | USA #11'
   password: ae7eb4dwyaz25pxwgq59
   port: 59689
@@ -148,105 +104,139 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.5MB/s
+- name: 🇺🇸US_1|1.6MB/s
   port: 443
-  server: 12.221.146.147
+  server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_2|2.2MB/s
-  port: 443
-  server: 12.202.180.10
+- name: 🇺🇸US_2|1.5MB/s
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|3.3MB/s
+  udp: true
+- name: 🇺🇸US_3|2.3MB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_4|2.6MB/s
-  port: 443
-  server: 129.153.93.183
+- name: 🇺🇸US_4|2.5MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|1.6MB/s
+  username: 'null'
+- name: 🇺🇸US_5|1.8MB/s
   password: None
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|1.3MB/s
+- name: 🇺🇸US_6|3.5MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_7|1.6MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1.0MB/s
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|1.6MB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|2.5MB/s
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.8MB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|3.4MB/s
   port: 443
   server: 149.22.88.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|1021KB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.4MB/s
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|3.1MB/s
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|2.5MB/s
+- auth: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
+  name: 🇺🇸US_13|2.3MB/s
+  password: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
   port: 443
-  server: 149.88.21.140
+  server: 179.255.104.98
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|1.1MB/s
+  sni: dl1.yuanshicheng.com
+  type: hysteria2
+  udp: true
+- name: 🇺🇸US_14|1.1MB/s
   port: 443
-  server: 66.64.100.66
+  server: 45.63.38.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_12|2.6MB/s
+- name: 🇺🇸US_15|1.3MB/s
+  password: None
   port: 443
-  server: 148.135.10.80
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_13|2.2MB/s
+- name: 🇺🇸US_16|2.8MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|2.3MB/s
   port: 8443
   server: 129.212.181.253
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_14|1.7MB/s
-  port: 8090
-  server: 184.188.139.2
+- name: 🇺🇸US_18|1.1MB/s
+  port: 443
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: 🇺🇸US_15|1.1MB/s
-  network: tcp
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
+- name: 🇺🇸US_19|1.5MB/s
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
-  type: trojan
-  udp: true
+  tls: true
+  type: http
+- name: 🇺🇸US_20|1.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   name: '🇦🇺 澳大利亚 | AUS #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -255,17 +245,6 @@ proxies:
   skip-cert-verify: true
   sni: vpn-au-001.fastervpn.world
   tls: false
-  type: hysteria2
-- auth: a34f3990b69f44bfa0d32385
-  name: 🇦🇺 澳大利亚 | AUS 2
-  obfs: salamander
-  obfs-password: a34f3990b69f44bfa0d32385
-  password: a34f3990b69f44bfa0d32385
-  port: 20000
-  ports: 20000-30000
-  server: 192.9.175.191
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
   type: hysteria2
 - alpn:
   - h2
@@ -373,6 +352,13 @@ proxies:
   uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 美国 | USA #8'
+  password: '!!str 123456'
+  port: 46007
+  server: 95.169.3.45
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -403,6 +389,13 @@ proxies:
     headers:
       Host: lucasjow.us.ci
     path: /cart/docs/www/proxyip=108.160.132.132
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 美国 | USA #15'
+  password: '!!str 123456'
+  port: 46009
+  server: 95.169.3.45
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: '🇺🇸 美国 | USA #16'
   password: '!!str 123456'
