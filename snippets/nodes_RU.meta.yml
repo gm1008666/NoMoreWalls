@@ -10,6 +10,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: random
+  encryption: none
   grpc-opts:
     grpc-service-name: grpc-ru
   name: 🇷🇺[www.v2nodes.com] vless-RU-1...
