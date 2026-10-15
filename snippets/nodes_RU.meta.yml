@@ -37,9 +37,3 @@ proxies:
   port: 22037
   server: ruot.ayucloudservices.nl
   type: ss
-- name: 🇷🇺RU_1|1.1MB/s
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  tls: true
-  type: http
