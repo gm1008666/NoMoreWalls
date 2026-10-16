@@ -714,13 +714,12 @@ proxies:
   type: trojan
   ws-opts:
     path: /0962
-- name: '🇺🇸 美国 | USA #11'
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: ae7eb4dwyaz25pxwgq59
   port: 59689
   server: 66.23.203.21
   skip-cert-verify: true
   type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -1006,7 +1005,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '🇮🇳 印度 | IND #1'
+- name: 🇮🇳IN_1|1.8MB/s
   password: Trojan@82164024
   port: 443
   server: in.tronsg.com
@@ -1014,31 +1013,33 @@ proxies:
   sni: in.tronsg.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_9|1.7MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 178.83.185.156
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '🇦🇺 澳大利亚 | AUS #1'
+  network: ws
+  port: 443
+  server: 172.67.197.71
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
+  uuid: 1c22bf94-702b-49ac-8f5e-24259beed2d8
+  ws-opts:
+    headers:
+      Host: aus.lovehk.xyz
+    path: /Sydney3
 - cipher: aes-256-cfb
   name: '🇨🇦 加拿大 | CAN #1'
   password: amazonskr05
   port: 443
   server: 15.175.213.130
   type: ss
-- cipher: aes-256-cfb
-  name: '🇨🇦 加拿大 | CAN #2'
-  password: amazonskr05
-  port: 443
-  server: 15.223.182.197
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #1'
+  name: '🇭🇰 香港 | HKG #2'
   network: ws
   port: 443
-  server: 47.243.194.125
+  server: nycqg19zkwacpm1b.v.3dns.vip
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1046,7 +1047,7 @@ proxies:
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -1064,31 +1065,61 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #3'
-  password: '123456'
-  port: 46006
-  server: 95.169.3.45
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #4'
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #8'
-  password: '123456'
-  port: 46007
-  server: 95.169.3.45
-  type: ss
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #5'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #15'
-  password: '123456'
-  port: 46009
-  server: 95.169.3.45
+  name: '🇳🇱 荷兰 | NLD #3'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 178.83.185.156
   type: ss
+- alpn:
+  - http/1.1
+  name: 🇳🇱 荷兰 | NLD 5
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: www.volumerOot.coM.
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸 美国 | USA #16'
-  password: '123456'
-  port: 46005
-  server: 95.169.3.45
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.volumerOot.coM.
+    path: /assignment
+- name: '🇳🇱 荷兰 | NLD #5'
+  password: humanity
+  port: 443
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: www.volumerOot.coM.
+  type: trojan
