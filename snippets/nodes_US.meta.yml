@@ -67,11 +67,17 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: '🇺🇸[www.v2nodes.com] ss-US-1598... #3'
   password: '!!str 123456'
-  port: 46010
+  port: 46009
   server: 95.169.3.45
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '🇺🇸[www.v2nodes.com] ss-US-1598... #4'
+  password: '!!str 123456'
+  port: 46010
+  server: 95.169.3.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #5'
   password: '!!str 123456'
   port: 46013
   server: 95.169.3.45
@@ -128,236 +134,29 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_1|3.5MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|3.2MB/s
-  network: ws
-  port: 443
-  server: 104.17.148.22
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: ''
-  xudp: true
-- name: 🇺🇸US_3|3.2MB/s
+- name: 🇺🇸US_1|1.4MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|3.2MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|3.8MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_6|2.6MB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|3.5MB/s|P002-260618
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸US_8|3.1MB/s
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_9|3.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|2.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.1MB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_12|3.7MB/s
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1.1MB/s
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|1.9MB/s
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|3.0MB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|2.7MB/s
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|3.3MB/s
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 🇺🇸US_18|1.2MB/s
-  password: None
-  port: 8090
-  server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_19|1.1MB/s
-  network: ws
-  port: 2087
-  server: panel.shahophoto.cv
-  servername: panel.shahophoto.cv
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d02da22-21ab-4799-8064-ac049c1979a9
-  ws-opts:
-    headers:
-      Host: panel.shahophoto.cv
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /tk3x9qa
-  xudp: true
-- name: 🇺🇸US_20|2.0MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- auth: 633bc3be486b646190661ac2387c150a
-  name: 🇦🇺 澳大利亚 | AUS
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  password: 633bc3be486b646190661ac2387c150a
-  port: 443
-  server: 152.67.115.203
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: a34f3990b69f44bfa0d32385
-  name: 🇦🇺 澳大利亚 | AUS 2
-  obfs: salamander
-  obfs-password: a34f3990b69f44bfa0d32385
-  password: a34f3990b69f44bfa0d32385
-  port: 20000
-  ports: 20000-30000
-  server: 137.23.27.143
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '🇦🇺 澳大利亚 | AUS #2'
-  network: ws
-  port: 443
-  server: 172.67.195.146
-  servername: aus.lovehk.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  ws-opts:
-    headers:
-      Host: aus.lovehk.xyz
-    path: /Sydney3
 - alpn:
   - h2
+  - http/1.1
   client-fingerprint: firefox
   name: '🇷🇺 俄罗斯 | RUS #2'
   network: xhttp
-  port: 443
-  server: 188.72.103.4
-  servername: ru.nnight.cfd
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
   tls: true
   type: vless
   udp: true
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
   xhttp-opts:
-    host: ru.nnight.cfd
-    mode: packet-up
-    path: /api/v4/media/session/poll
-    seq-key: offset
-    seq-placement: query
-    uplink-data-key: X-Playback-Token
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 48-320
-    x-padding-key: q
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
 - alpn:
   - h2
   - http/1.1
@@ -375,34 +174,77 @@ proxies:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #4'
-  network: xhttp
-  port: 2053
-  server: 78.159.246.179
-  servername: randomquaint.net
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #1'
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
-- cipher: 2022-blake3-aes-128-gcm
-  name: '🇺🇸 美国 | USA #1'
-  password: jr+T2RS0sCHBmC4u6aY6Vg==
-  port: 30832
-  server: 172.86.108.79
-  type: ss
-  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   name: '🇺🇸 美国 | USA #2'
+  network: ws
+  port: 443
+  server: 104.17.148.22
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- auth: https://xship.best
+  name: 🇺🇸 美国 | USA 3
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #3'
+  network: ws
+  port: 443
+  server: 104.16.10.189
+  servername: u.srilankangrill.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  ws-opts:
+    headers:
+      Host: u.srilankangrill.online
+    path: /
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #5'
+  network: ws
+  port: 443
+  server: 104.21.0.87
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #7'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -415,59 +257,69 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip
-- auth: https://xship.best
-  name: 🇺🇸 美国 | USA 3
-  password: https://xship.best
-  port: 443
-  server: starlink-ft.251313.xyz
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸 美国 | USA #8'
+  network: ws
+  port: 8443
+  server: v2ray1.dozapp.xyz
   skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
+  tls: true
+  type: vmess
   udp: true
-- auth: https://xship.top
-  name: 🇺🇸 美国 | USA 4
-  password: https://xship.top
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #3'
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #9'
   network: ws
   port: 443
-  server: www.speedtest.net
-  servername: snip.edgeoneai.cc.cd
+  server: 104.16.10.235
+  servername: u.srilankangrill.online
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn
+      Host: u.srilankangrill.online
+    path: /
+- client-fingerprint: unsafe
+  name: '🇺🇸 美国 | USA #11'
+  network: ws
+  port: 2083
+  server: 104.18.35.86
+  servername: vlsovip.1d.mom
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlsovip.1d.mom
+    path: /
 - alpn:
   - http/1.1
-  name: 🇺🇸 美国 | USA 6
+  client-fingerprint: unsafe
+  name: '🇺🇸 美国 | USA #12'
   network: ws
-  password: humanity
   port: 443
-  server: 172.67.118.45
-  skip-cert-verify: true
-  sni: www.volumeroot.com
-  type: trojan
+  server: 188.114.98.0
+  servername: skycitybox-bidarbash.sbs
+  tls: true
+  type: vless
   udp: true
+  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
   ws-opts:
     headers:
-      Host: www.volumeroot.com
-    path: /assignment
+      Host: skycitybox-bidarbash.sbs
+    path: /zoodi
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #6'
+  name: '🇺🇸 美国 | USA #14'
   network: ws
   port: 443
   server: 188.114.97.6
@@ -480,46 +332,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #7'
-  network: ws
-  port: 8443
-  server: news.zoom.us
-  servername: u.srilankangrill.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  ws-opts:
-    headers:
-      Host: u.srilankangrill.online
-    path: /
-- auth: https://xship.2fa.cat
-  name: 🇺🇸 美国 | USA 11
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
-- name: '🇦🇺 澳大利亚 | AUS #1'
-  obfs: salamander
-  obfs-password: salamander
-  password: 633bc3be486b646190661ac2387c150a
-  port: 443
-  server: 152.67.115.203
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '🇺🇸 美国 | USA #4'
-  password: humanity
-  port: 443
-  server: 172.67.118.45
-  skip-cert-verify: true
-  sni: www.volumeroot.com
-  type: trojan
 - name: US_speednode_0131
   password: 'null'
   port: 9002

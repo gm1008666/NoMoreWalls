@@ -1,4 +1,11 @@
 proxies:
+- name: 🛩️40@oneclickvpnkeys
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  port: 54183
+  server: 189.74.106.162
+  sni: outh.yandex-cloud.org
+  tls: false
+  type: hysteria2
 - name: 🛩️15@oneclickvpnkeys
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   port: 54183
@@ -6,19 +13,6 @@ proxies:
   sni: outh.yandex-cloud.org
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇳🇱NL_8|3.9MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 082f5694-9019-4110-b67b-8125dbb9bab8
-  port: 54183
-  server: outh.yandex-cloud.org
-  skip-cert-verify: false
-  sni: outh.yandex-cloud.org
-  tls: false
-  type: hysteria2
-  up: ''
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -30,6 +24,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: random
+  encryption: none
   grpc-opts:
     grpc-service-name: grpc-ru
   name: 🇷🇺[www.v2nodes.com] vless-RU-1...
@@ -57,15 +52,3 @@ proxies:
   port: 18443
   server: 194.87.196.107
   type: ss
-- name: 🇷🇺RU_1|1.2MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_2|1.1MB/s
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
-  tls: true
-  type: http

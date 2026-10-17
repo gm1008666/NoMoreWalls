@@ -1,4 +1,12 @@
 proxies:
+- name: 🛩️39@oneclickvpnkeys
+  password: gf1
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: www.docker.com
+  tls: false
+  type: hysteria2
 - name: 🇫🇷[www.v2nodes.com] vless-FR-1...
   network: ws
   port: 14430
@@ -164,21 +172,3 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 🇫🇷FR_1|2.8MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_2|3.0MB/s
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|3.9MB/s
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
