@@ -51,3 +51,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇺🇸US_3|1.2MB/s
+  password: bwLa2026x9KpQzRt7Nv
+  port: 443
+  server: 104.36.66.212
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇺🇸 美国 | USA #11'
+  network: ws
+  port: 80
+  server: 172.67.187.145
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
