@@ -5,17 +5,11 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- name: 🇪🇪EE_1|1022KB/s
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   name: '🇪🇪 爱沙尼亚 | EST #1'
   network: ws
-  port: 443
-  server: 130.78.190.134
+  port: 8443
+  server: 109.120.133.26
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless

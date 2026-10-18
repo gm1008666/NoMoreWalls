@@ -27,10 +27,33 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: '@FarazV2ray'
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  skip-cert-verify: false
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  network: ws
+  port: 443
+  server: 185.141.227.223
+  servername: z1q3pv4g78.rucdncomp.pro
+  tls: true
+  type: vless
+  uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
+  ws-opts:
+    headers:
+      Host: z1q3pv4g78.rucdncomp.pro
+    path: /useraction/events/b892639b7195/
 - alpn:
   - http/1.1
   client-fingerprint: edge
-  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
   network: ws
   port: 443
   server: gpt.prem-ai.shop
@@ -42,13 +65,21 @@ proxies:
     headers:
       Host: gpt.prem-ai.shop
     path: /stream/v1/session/media
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  network: ws
   port: 2087
   server: sdcdethyerft.localip.ir
-  tls: false
+  servername: sdcdethyerft.localip.ir
+  skip-cert-verify: false
+  tls: true
   type: vless
   uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
   ws-opts:
+    headers:
+      Host: sdcdethyerft.localip.ir
     path: /hokm
 - client-fingerprint: chrome
   name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
@@ -78,34 +109,26 @@ proxies:
     headers:
       Host: cdn.topingr.ir
     path: /gropcdn
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
-  port: 2087
-  server: hoert1rert.localip.ir
-  tls: false
-  type: vless
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
-  ws-opts:
-    path: /hokm
 - alpn:
   - http/1.1
   encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   network: ws
   port: 2087
-  server: ops4asfseretuiyk.localip.ir
-  servername: ops4asfseretuiyk.localip.ir
+  server: hoert1rert.localip.ir
+  servername: hoert1rert.localip.ir
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
   ws-opts:
     headers:
-      Host: ops4asfseretuiyk.localip.ir
+      Host: hoert1rert.localip.ir
     path: /hokm
 - alpn:
   - http/1.1
   encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #13'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
   network: ws
   port: 2087
   server: tuyiuoyuthgfdbf.localip.ir
@@ -118,107 +141,29 @@ proxies:
     headers:
       Host: tuyiuoyuthgfdbf.localip.ir
     path: /hokm
-- alpn:
-  - http/1.1
-  encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #14'
-  network: ws
-  port: 2087
-  server: fert6.localip.ir
-  servername: fert6.localip.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
-  ws-opts:
-    headers:
-      Host: fert6.localip.ir
-    path: /hokm
 - name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
   sni: t.me/FuckTheWall
   type: trojan
+- name: 🇩🇪DE_1|1.0MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪 德国 | DEU
+  password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
+  port: 4430
+  server: gb2.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: anytls
 - alpn:
   - h3
   - h2
   client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1014KB/s
-  network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇩🇪DE_2|1.1MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.2MB/s
-  port: 12345
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
-- client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #1'
-  network: ws
-  port: 443
-  server: cf07.nianyi.de5.net
-  servername: edge2.nianyi.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee475f7b-718b-4fd3-aa1f-49a381b9ad9d
-  ws-opts:
-    headers:
-      Host: edge2.nianyi.de5.net
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #2'
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: firefox.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_3i.global.ssl.fastly.net.
-    path: /?TELEGRAM-DailyConfigs
-- client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #3'
-  network: ws
-  port: 443
-  server: 185.141.227.223
-  servername: z1q3pv4g78.rucdncomp.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
-  ws-opts:
-    headers:
-      Host: z1q3pv4g78.rucdncomp.pro
-    path: /useraction/events/b892639b7195/
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #4'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -232,10 +177,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
 - client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #5'
+  name: '🇩🇪 德国 | DEU #2'
   network: ws
-  port: 443
-  server: 162.159.130.234
+  port: 8443
+  server: 2.28.42.209
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -244,4 +189,4 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
