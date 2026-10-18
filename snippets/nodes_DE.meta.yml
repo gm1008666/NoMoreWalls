@@ -132,33 +132,52 @@ proxies:
     headers:
       Host: tuyiuoyuthgfdbf.localip.ir
     path: /hokm
-- name: 🇩🇪DE_1|3.5MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_2|2.9MB/s
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  sni: t.me/FuckTheWall
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|4.0MB/s
+  network: ws
   port: 443
-  server: 159.69.94.125
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇩🇪DE_2|4.4MB/s
+  port: 443
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|3.1MB/s
+- name: 🇩🇪DE_3|2.8MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.7MB/s
   port: 443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|3.3MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.2MB/s
-  port: 9002
-  server: 158.173.154.2
+- name: 🇩🇪DE_5|1.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
@@ -168,36 +187,52 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_7|2.0MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|2.8MB/s
+- name: 🇩🇪DE_7|2.8MB/s
   port: 443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_9|2.1MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
+- client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: studiofeed
+  name: 🇩🇪DE_8|2.8MB/s
+  network: grpc
+  port: 443
+  server: 45.12.63.96
+  servername: studio.10media.top
   tls: true
-  type: http
-- name: 🇩🇪DE_10|2.4MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
+  type: vless
+  udp: true
+  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
+  xudp: true
+- name: '🇩🇪 德国 | DEU #1'
+  network: xhttp
+  port: 46927
+  server: fast-pars.netbazshop.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1c2ddf7e-33ad-49f2-9564-5cfb0914359e
+  xhttp-opts:
+    host: Snapp.ir
+    mode: packet-up
+    path: /
+    x-padding-bytes: 100-1000
+- auth: 082f5694-9019-4110-b67b-8125dbb9bab8
+  name: '🇩🇪 德国 | DEU #2'
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  port: 54183
+  server: 50.7.87.150
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: outh.yandex-cloud.org
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   - h2
   client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #1'
+  name: '🇩🇪 德国 | DEU #3'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -210,25 +245,40 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #2'
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #4'
   network: ws
   port: 443
-  server: 82.39.212.230
-  servername: snip.edgeoneai.cc.cd
+  server: 185.141.227.223
+  servername: z1q3pv4g78.rucdncomp.pro
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      Host: z1q3pv4g78.rucdncomp.pro
+    path: /useraction/events/b892639b7195/
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇩🇪 德国 | DEU #5'
+  network: http
+  port: 443
+  server: 3.124.195.79
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
 - client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #3'
+  name: '🇩🇪 德国 | DEU #6'
   network: ws
   port: 443
-  server: 213.165.37.102
+  server: 213.176.94.31
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -239,7 +289,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #4'
+  name: '🇩🇪 德国 | DEU #7'
   network: ws
   port: 8443
   server: 152.89.254.48
@@ -252,47 +302,3 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #5'
-  network: ws
-  port: 8443
-  server: 195.66.24.121
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #7'
-  network: ws
-  port: 443
-  server: 103.160.59.198
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- encryption: mlkem768x25519plus.native.0rtt.fY8z33cAh9Nb0X4JZQ0IK19FkjA-F_z2NeJNUGWAwBs
-  http-opts:
-    headers:
-      Host:
-      - connectivitycheck.android.com
-    method: GET
-    path:
-    - /
-  name: '🇩🇪 德国 | DEU #8'
-  network: http
-  port: 40018
-  server: gr-v.onlinernet.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 16188ecf-2dcd-40d7-898b-60461f125978
