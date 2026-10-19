@@ -81,15 +81,3 @@ proxies:
   tls: true
   type: vless
   uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
-- name: 🇸🇪SE_1|3.3MB/s
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|1.0MB/s
-  port: 443
-  server: 217.210.129.243
-  skip-cert-verify: true
-  tls: true
-  type: http
