@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 🇭🇰[www.v2nodes.com] ss-HK-1599...
-  password: 30e9c7aa-d86d-4f0d-a0d6-9d0ddf3f5e42
-  port: 40006
-  server: ruot.ayucloudservices.nl
-  type: ss
 - name: 🇭🇰[www.v2nodes.com] trojan-HK-...
   password: bad06c3525a6eaee1757b34776b83892
   port: 12001
@@ -13,12 +7,9 @@ proxies:
   sni: ixigua.com
   type: trojan
 - name: '🇭🇰[www.v2nodes.com] trojan-HK-... #1'
-  network: tcp
   password: XuMweB2PWs
   port: 45464
   server: 2.27.109.179
-  skip-cert-verify: false
-  sni: 2.27.109.179.sslip.io
   type: trojan
 - alterId: 2
   cipher: auto

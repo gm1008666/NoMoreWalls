@@ -36,7 +36,15 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+- encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  network: tcp
+  port: 10000
+  server: connect.wecantos.site
+  tls: false
+  type: vless
+  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
   port: 443
   server: 146.75.59.186
   tls: false
@@ -45,7 +53,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: edge
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
   network: ws
   port: 443
   server: gpt.prem-ai.shop
@@ -57,7 +65,7 @@ proxies:
     headers:
       Host: gpt.prem-ai.shop
     path: /stream/v1/session/media
-- name: 🇪🇪[www.v2nodes.com] vless-EE-1...
+- name: '🇪🇪[www.v2nodes.com] vless-EE-1... #3'
   port: 443
   server: 77.110.105.122
   tls: false
@@ -76,30 +84,67 @@ proxies:
     headers:
       Host: copy_az_channel_NUFiLTER_3.global.ssl.fastly.net.
     path: /
-- encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+- alpn:
+  - /--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
+  network: ws
+  port: 443
+  server: cdn.topingr.ir
+  servername: cdn.topingr.ir
+  tls: true
+  type: vless
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  ws-opts:
+    headers:
+      Host: cdn.topingr.ir
+    path: /gropcdn
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   network: ws
   port: 2083
   server: sino.bestsellers1.site
   servername: sino.bestsellers1.site
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
   ws-opts:
     path: /
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+- encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
+  network: ws
+  port: 443
+  server: 146.75.59.186
+  servername: firefox.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_3i.global.ssl.fastly.net.
+    path: /
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+  port: 2087
+  server: hoert1rert.localip.ir
+  tls: false
+  type: vless
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
+  ws-opts:
+    path: /hokm
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
   port: 443
   server: de2.balancer.vbuste-bot.com
   tls: false
   type: vless
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- alpn:
-  - http/1.1
-  name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de7.dedushka.top
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: de7.dedushka.top
   type: trojan
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
@@ -108,9 +153,56 @@ proxies:
   server: de-bots4.h1cloud.net
   sni: t.me/FuckTheWall
   type: trojan
-- name: 🇩🇪DE_1|1.1MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|3.2MB/s
+  network: tcp
   port: 443
-  server: 213.177.229.161
+  server: de3.brightmetric.trade
+  servername: de3.brightmetric.trade
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
+  xudp: true
+- name: DK_speednode_0004
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_5|1.8MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|3.1MB/s
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.3MB/s
+  port: 443
+  server: 79.76.126.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|4.3MB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|1.7MB/s
+  port: 443
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
@@ -136,3 +228,29 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+- name: DE_speednode_0001
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: testuser1

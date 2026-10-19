@@ -1,21 +1,24 @@
 proxies:
-- name: 🇫🇷[www.v2nodes.com] vless-FR-1...
-  port: 22223
-  server: 51.45.54.244
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- encryption: none
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
-  port: 22222
-  server: 35.181.38.194
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  name: '🇫🇷 法国 | FRA #1'
+  network: ws
+  port: 8443
+  server: speedtest.org
+  servername: pbsjv.megalionzone-vexina.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3571d81-38bd-44a8-9b75-5af8a125fc42
+  ws-opts:
+    headers:
+      Host: pbsjv.megalionzone-vexina.sbs
+    path: /bala
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   network: ws
   port: 443
   server: redcloudport-bidarbash.sbs
@@ -51,11 +54,13 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+- alpn:
+  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
   network: ws
   password: humanity
-  port: 443
-  server: 45.87.41.18
+  port: 8443
+  server: 212.227.144.37
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -140,22 +145,24 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇫🇷 法国 | FRA #1'
-  network: ws
-  port: 8443
-  server: speedtest.org
-  servername: pbsjv.megalionzone-vexina.sbs
+- name: 🇫🇷FR_2|2.5MB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: c3571d81-38bd-44a8-9b75-5af8a125fc42
-  ws-opts:
-    headers:
-      Host: pbsjv.megalionzone-vexina.sbs
-    path: /bala
+  type: http
+- name: 🇫🇷FR_3|3.0MB/s
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|2.4MB/s
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: '🇫🇷 法国 | FRA #2'
   network: tcp
   port: 22223
@@ -166,3 +173,10 @@ proxies:
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   ws-opts:
     path: /
+- name: FR_speednode_0005
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
