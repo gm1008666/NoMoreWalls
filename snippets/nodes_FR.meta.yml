@@ -26,7 +26,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #1'
   network: ws
   password: humanity
   port: 443
@@ -99,6 +99,13 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
+  password: humanity
+  port: 443
+  server: 185.220.100.168
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
   password: humanity
   port: 443
@@ -130,7 +137,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #12'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #11'
   network: ws
   password: humanity
   port: 443
@@ -141,54 +148,12 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- client-fingerprint: random
-  name: 🇫🇷FR_1|1.5MB/s
+- client-fingerprint: chrome
+  name: '🇫🇷 法国 | FRA #1'
   network: ws
   port: 443
-  server: 31.220.89.170
-  servername: 20664.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
-  ws-opts:
-    headers:
-      Host: 20664.pages.dev
-    path: /?ed=2048
-- name: 🇫🇷FR_2|2.3MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|3.8MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_4|2.6MB/s
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_5|1.3MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_6|1.2MB/s
-  network: ws
-  port: 443
-  server: 140.248.186.45
-  servername: ssl.fastly.com
+  server: 199.232.78.170
+  servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
   udp: true
@@ -196,31 +161,18 @@ proxies:
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /
-  xudp: true
-- name: '🇫🇷 法国 | FRA #1'
-  network: tcp
-  port: 22223
-  server: 51.45.54.244
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  ws-opts:
-    path: /
-- client-fingerprint: ios
+- client-fingerprint: chrome
   name: '🇫🇷 法国 | FRA #2'
   network: ws
   port: 443
-  server: cdn-01.funvideos.video
-  servername: cdn-01.funvideos.video
+  server: 199.232.78.160
+  servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: aca886aa-9b51-4eb2-8d7a-12d6b89caf4d
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: cdn-01.funvideos.video
-    path: /api/53d53ac3/a7fa61/096357bebc62
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
