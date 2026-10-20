@@ -1,8 +1,7 @@
 proxies:
-- encryption: none
-  name: 🇬🇧[www.v2nodes.com] vless-GB-1...
+- name: 🇬🇧[www.v2nodes.com] vless-GB-1...
   port: 22222
-  server: 16.61.117.36
+  server: 51.24.54.202
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
@@ -34,53 +33,33 @@ proxies:
   tls: false
   type: vless
   uuid: 8e790f25-1d71-4601-9fb0-d503931dcfca
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
+  network: tcp
+  port: 8443
+  server: node-uk.connectsuite.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
 - cipher: aes-128-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1451...
   password: shadowsocks
   port: 443
   server: 158.173.24.73
   type: ss
-- name: 🇬🇧GB_1|2.5MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|2.4MB/s
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|3.1MB/s
+- name: 🇬🇧GB_1|2.0MB/s
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|2.9MB/s
-  port: 9443
-  server: 84.17.50.129
+- name: '🇬🇧 英国 | GBR #1'
+  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
+  port: 56007
+  server: fj3x.waimaosass.icu
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|3.9MB/s
-  port: 1080
-  server: 57.129.182.181
-  skip-cert-verify: true
-  type: socks5
-- alterId: 0
-  cipher: auto
-  name: '🇬🇧 英国 | GBR #1'
-  network: ws
-  port: 8443
-  server: 206.238.239.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: iosapps.itunes.apple.com
+  type: trojan
   udp: true
-  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
-  ws-opts:
-    headers:
-      Host: uk.frnhk.xyz
-    path: /London31
