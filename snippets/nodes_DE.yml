@@ -18,7 +18,7 @@ proxies:
   network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: de2.dedushka.top
+  server: 188.241.241.122
   skip-cert-verify: false
   sni: de2.dedushka.top
   type: trojan
@@ -34,7 +34,6 @@ proxies:
 - alpn:
   - http/1.1
   name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
-  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de8.dedushka.top
@@ -54,7 +53,6 @@ proxies:
 - alpn:
   - http/1.1
   name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
-  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de10.dedushka.top
