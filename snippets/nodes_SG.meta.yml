@@ -162,41 +162,37 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|1.9MB/s
+- name: 🇸🇬SG_1|4.1MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.87.168
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_2|2.1MB/s
   port: 9443
   server: 152.233.9.239
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇬SG_2|1.4MB/s
-  password: '!!str 8888'
-  port: 1080
-  server: 47.236.168.243
-  skip-cert-verify: true
-  type: socks5
-  username: '8888'
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|1004KB/s
-  network: ws
+- name: 🇸🇬SG_3|2.3MB/s
   port: 443
-  server: 188.166.234.177
-  servername: snip.edgeoneai.cc.cd
+  server: 156.146.56.97
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
+  type: http
+- name: 🇸🇬SG_4|4.1MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.229.54.109
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - client-fingerprint: chrome
   name: '🇸🇬 新加坡 | SGP #1'
   network: ws
   port: 443
-  server: 89.28.239.57
+  server: 103.161.178.205
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -205,26 +201,20 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #2'
-  network: ws
-  port: 2053
-  server: 5.34.177.212
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- name: '🇸🇬 新加坡 | SGP #2'
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 139.180.146.200
+  skip-cert-verify: true
+  sni: 139.180.146.200
+  type: trojan
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
 - client-fingerprint: chrome
   name: '🇸🇬 新加坡 | SGP #3'
   network: ws
   port: 443
-  server: 13.250.78.140
+  server: 103.161.179.171
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -233,12 +223,12 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: unsafe
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
   name: '🇸🇬 新加坡 | SGP #4'
   network: ws
   port: 443
-  server: 172.64.150.43
+  server: 84.32.22.205
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -247,18 +237,4 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #5'
-  network: ws
-  port: 443
-  server: 172.93.219.9
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome

@@ -168,12 +168,11 @@ proxies:
   server: 67.159.18.34
   type: ss
 - cipher: aes-256-gcm
-  name: '🇩🇪 德国 | DEU #1'
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.204.18
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 🇫🇮[www.v2nodes.com] ss-FI-1596...
   password: j_Z9yWqItCz_9yhD5YVY4w
@@ -193,19 +192,17 @@ proxies:
   server: 139.84.166.47
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2'
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 🇮🇹[www.v2nodes.com] ss-IT-1597...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -279,33 +276,29 @@ proxies:
   server: 103.107.52.106
   type: ss
 - cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #15'
+  name: 🇺🇸[www.v2nodes.com] ss-US-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.151.163.18
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #14'
+  name: '🇺🇸[www.v2nodes.com] ss-US-1602... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 45.86.51.18
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #9'
+  name: '🇺🇸[www.v2nodes.com] ss-US-1602... #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.151.160.18
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #2'
+  name: '🇺🇸[www.v2nodes.com] ss-US-1602... #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.215.132.9
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇿🇦[www.v2nodes.com] ss-ZA-1336...
   password: aduB9HGxQHjA2SBMRjkHX6
@@ -977,98 +970,110 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
+- alterId: '2'
   cipher: auto
-  name: 🇺🇸US_2|3.5MB/s
-  network: ws
-  port: 8033
-  server: 120.232.202.14
+  name: 🇳🇱NL_1|2.4MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_1|1003KB/s
+  network: ws
+  port: 2083
+  server: cdn.sfacg.uk
+  servername: cdn.sfacg.uk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+      Host: or3.sfacg.uk
+    path: /or3
   xudp: true
 - client-fingerprint: chrome
-  name: 🇮🇹IT_4|4.3MB/s
+  name: 🇺🇸US_20|1.2MB/s
   network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: it1.dedushka.top
+  server: us3.dedushka.top
   skip-cert-verify: false
-  sni: it1.dedushka.top
+  sni: us3.dedushka.top
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇮🇩ID_1|2.0MB/s
-  network: ws
-  port: 443
-  server: tasCePjs5K8Cmo8x.v.3dns.vip
-  servername: tasCePjs5K8Cmo8x.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: aes-256-gcm
+  name: 🇻🇳VN_1|2.5MB/s
+  password: 585f0e10-7b51-4f2e-a13d-479b045171bd
+  port: 22089
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: tasCePjs5K8Cmo8x.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE_10|2.9MB/s
-  network: ws
+- cipher: aes-256-gcm
+  name: '🇬🇧 英国 | GBR #1'
+  password: 585f0e10-7b51-4f2e-a13d-479b045171bd
+  port: 22078
+  server: ruot.ayucloudservices.nl
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇱🇻 拉脱维亚 | LVA
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: 22INLn9BmbA7RUmR.v.3dns.vip
-  servername: 22INLn9BmbA7RUmR.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: 22INLn9BmbA7RUmR.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE_11|2.8MB/s
-  network: ws
-  port: 443
-  server: 3E89CNW0HGtiFiDE.v.3dns.vip
-  servername: 3E89CNW0HGtiFiDE.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  ws-opts:
-    headers:
-      Host: 3E89CNW0HGtiFiDE.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - gvt1.com
-    method: GET
-    path:
-    - /
-  name: '🇩🇪 德国 | DEU #9'
-  network: http
-  port: 80
-  server: turknew.net-flowa.com
+  server: lv1.dedushka.top
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: lv1.dedushka.top
+  type: trojan
   udp: true
-  uuid: cd96479e-9c39-4a7f-ba0c-806a83af19ca
+- name: '🇷🇴 罗马尼亚 | ROU #1'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: ie1.dedushka.top
+  skip-cert-verify: true
+  sni: ie1.dedushka.top
+  type: trojan
+  udp: true
+- name: '🇸🇬 新加坡 | SGP #2'
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 139.180.146.200
+  skip-cert-verify: true
+  sni: 139.180.146.200
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国 | USA 7
+  network: ws
+  password: mitivpn
+  port: 443
+  server: b2n.ir
+  skip-cert-verify: true
+  sni: de.mitivpn.in.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: de.mitivpn.in.net
+    path: ''
+- name: '🇱🇻 拉脱维亚 | LVA #1'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: lv1.dedushka.top
+  skip-cert-verify: true
+  sni: lv1.dedushka.top
+  type: trojan
+- name: '🇺🇸 美国 | USA #7'
+  password: mitivpn
+  port: 443
+  server: b2n.ir
+  skip-cert-verify: true
+  sni: de.mitivpn.in.net
+  type: trojan
