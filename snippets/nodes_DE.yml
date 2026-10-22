@@ -15,10 +15,9 @@ proxies:
 - alpn:
   - http/1.1
   name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
-  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: 188.241.241.122
+  server: de2.dedushka.top
   skip-cert-verify: false
   sni: de2.dedushka.top
   type: trojan
@@ -31,13 +30,10 @@ proxies:
   server: de6.dedushka.top
   sni: de6.dedushka.top
   type: trojan
-- alpn:
-  - http/1.1
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de8.dedushka.top
-  skip-cert-verify: false
   sni: de8.dedushka.top
   type: trojan
 - alpn:
@@ -58,26 +54,4 @@ proxies:
   server: de10.dedushka.top
   skip-cert-verify: false
   sni: de10.dedushka.top
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 🇩🇪 德国 | DEU 5
-  network: ws
-  password: humanity
-  port: 443
-  server: 157.230.29.88
-  skip-cert-verify: true
-  sni: wWw.Volumeroot.cOm
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: wWw.Volumeroot.cOm
-    path: /assignment
-- name: '🇩🇪 德国 | DEU #5'
-  password: humanity
-  port: 443
-  server: 157.230.29.88
-  skip-cert-verify: true
-  sni: wWw.Volumeroot.cOm
   type: trojan
