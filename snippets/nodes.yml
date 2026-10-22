@@ -90,7 +90,7 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🏳[www.v2nodes.com] ss-
+  name: 🇦🇱[www.v2nodes.com] ss-AL-1490...
   password: nQeEoXC5Yl5PZnPLvKUpFTU9cyQcNG902zpibWkwGbo=
   port: 43558
   server: 130.49.189.158
@@ -132,13 +132,13 @@ proxies:
   server: 51.222.136.236
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #1'
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1546...
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 51.222.155.113
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #2'
+  name: 🏳[www.v2nodes.com] ss-
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 51.222.155.32
@@ -150,7 +150,7 @@ proxies:
   server: 51.79.64.198
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #3'
+  name: '🏳[www.v2nodes.com] ss- #1'
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.79.49.116
@@ -174,7 +174,7 @@ proxies:
   server: 67.159.18.34
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #4'
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.204.18
@@ -190,6 +190,12 @@ proxies:
   password: shadowsocks
   port: 443
   server: 158.173.24.73
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
   type: ss
 - cipher: aes-256-gcm
   name: 🇮🇹[www.v2nodes.com] ss-IT-1602...
@@ -210,13 +216,13 @@ proxies:
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #5'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -236,13 +242,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #7'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #5'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -255,7 +261,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #9'
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1597...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.164.175.81
@@ -267,13 +273,13 @@ proxies:
   server: 57.131.48.45
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #10'
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #11'
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1598...
   password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
   port: 8388
   server: 191.223.221.53
@@ -281,7 +287,7 @@ proxies:
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
   password: 3eOFeNssde7PYYMv
-  port: 80
+  port: 443
   server: 84.247.155.196
   type: ss
 - cipher: aes-256-gcm
@@ -303,7 +309,7 @@ proxies:
   server: 185.213.23.63
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '🏳[www.v2nodes.com] ss- #12'
+  name: 🇷🇴[www.v2nodes.com] ss-RO-1595...
   password: U83u9OGpvSatIUW7LsWffr
   port: 64546
   server: 194.68.44.42
@@ -312,19 +318,13 @@ proxies:
   name: 🇷🇴[www.v2nodes.com] ss-RO-1298...
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: 154.46.31.106
   type: ss
 - cipher: aes-256-gcm
   name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
   password: AxIYWtskJWIIaefW
   port: 8388
   server: 70.34.212.124
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬[www.v2nodes.com] ss-SG-1603...
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 13.250.31.67
   type: ss
 - cipher: aes-256-gcm
   name: 🇹🇭[www.v2nodes.com] ss-TH-1591...
@@ -399,13 +399,13 @@ proxies:
   server: 185.215.132.9
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '🏳[www.v2nodes.com] ss- #13'
+  name: 🇿🇦[www.v2nodes.com] ss-ZA-1336...
   password: aduB9HGxQHjA2SBMRjkHX6
   port: 443
   server: 102.37.156.224
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '🏳[www.v2nodes.com] ss- #14'
+  name: 🇿🇦[www.v2nodes.com] ss-ZA-1333...
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   port: 16233
   server: 102.133.165.160
@@ -422,7 +422,6 @@ proxies:
 - alpn:
   - http/1.1
   name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
-  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de12.dedushka.top
@@ -439,34 +438,41 @@ proxies:
   skip-cert-verify: false
   sni: de5.dedushka.top
   type: trojan
-- name: 🏳[www.v2nodes.com] trojan-
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: it1.dedushka.top
   sni: it1.dedushka.top
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+- alpn:
+  - http/1.1
+  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
+  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de2.dedushka.top
+  skip-cert-verify: false
   sni: de2.dedushka.top
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de6.dedushka.top
   sni: de6.dedushka.top
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  server: de8.dedushka.top
-  sni: de8.dedushka.top
-  type: trojan
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #6'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: de4.dedushka.top
+  server: de8.dedushka.top
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #7'
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: 188.241.241.102
+  skip-cert-verify: false
   sni: de4.dedushka.top
   type: trojan
 - name: 🇫🇷[www.v2nodes.com] trojan-FR-...
@@ -481,11 +487,11 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🏳[www.v2nodes.com] trojan- #1'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #1'
   network: ws
   password: humanity
   port: 443
-  server: 185.220.100.168
+  server: 185.225.68.232
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -555,13 +561,25 @@ proxies:
       Host: www.calmlunch.com
     path: '%2Fassignment'
 - name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.220.100.168
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #9'
   network: ws
   password: humanity
   port: 443
@@ -573,7 +591,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #9'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #10'
   network: ws
   password: humanity
   port: 443
@@ -585,7 +603,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #10'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #11'
   network: ws
   password: humanity
   port: 443
@@ -763,13 +781,14 @@ proxies:
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: pl1.dedushka.top
-  skip-cert-verify: false
   sni: pl1.dedushka.top
   type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #2'
+- name: '🇵🇱[www.v2nodes.com] trojan-PL-... #1'
+  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: pl2.dedushka.top
+  skip-cert-verify: false
   sni: pl2.dedushka.top
   type: trojan
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
@@ -784,7 +803,7 @@ proxies:
   server: 23.106.44.14
   sni: sj6.freeguard.org
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
   password: dba20dcb635e430fa4d3bfc303a149d2
   port: 443
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
@@ -1075,6 +1094,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇹🇷TR_1|1.3MB/s
+  network: tcp
+  port: 443
+  server: free.ertebatgoostar.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c9eab439-53bf-46e4-ba58-fc368ae1ee8c
+  xudp: true
 - name: '🇮🇳 印度 | IND #1'
   password: Trojan@82164024
   port: 443

@@ -4,21 +4,32 @@ proxies:
   name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
   port: 443
-  server: 188.164.248.216
+  server: 172.64.152.241
   servername: ccc.010304.xyz
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-    path: /
+    path: /fp=chrome
 - alpn:
   - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '🏳[www.v2nodes.com] vless- #11'
+  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
+  network: ws
+  port: 443
+  server: 104.21.91.244
+  servername: lucasjow.us.ci
+  tls: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  ws-opts:
+    headers:
+      Host: lucasjow.us.ci
+    path: /cart/docs/www/proxyip=108.160.132.132?edfp=chrome
+- alpn:
+  - http/1.1
+  name: '🇭🇰[www.v2nodes.com] vless-HK #1'
   network: ws
   port: 443
   server: 188.114.97.6
@@ -30,13 +41,21 @@ proxies:
   ws-opts:
     headers:
       Host: lucasjow.us.ci
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /cart/docs/www/proxyipfp=chrome
+- name: '🇸🇬[www.v2nodes.com] vless-SG #5'
+  port: 2082
+  server: 104.18.0.181
+  tls: false
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    path: /fp
 - client-fingerprint: chrome
   encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG #2'
+  name: '🇸🇬[www.v2nodes.com] vless-SG #6'
   network: ws
   port: 443
-  server: 172.66.47.10
+  server: 104.18.41.190
   servername: lucasjow.us.ci
   skip-cert-verify: false
   tls: true
@@ -46,18 +65,6 @@ proxies:
     headers:
       Host: lucasjow.us.ci
     path: /cart/docs/www/proxyip=108.160.132.132
-- name: '🇸🇬[www.v2nodes.com] vless-SG #3'
-  network: ws
-  port: 443
-  server: cf.130519.xyz
-  servername: lucasjow.us.ci
-  tls: true
-  type: vless
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  ws-opts:
-    headers:
-      Host: lucasjow.us.ci
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
 - name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   network: ws
   port: 8443
@@ -70,37 +77,63 @@ proxies:
     headers:
       Host: speed.dulacloud.store
     path: /dula?Telegram-WangCai2fp=chrome
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
+  network: tcp
   port: 16263
   server: 47.237.74.17
   tls: false
   type: vless
   uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
-- name: 🇸🇬[www.v2nodes.com] vless-SG-9...
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
   network: ws
-  port: 2082
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
+  port: 2096
+  server: 139.162.27.96
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- client-fingerprint: qq
-  name: '🇸🇬[www.v2nodes.com] vless-SG-9... #1'
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG-9...
   network: ws
   port: 443
-  server: cf.877774.xyz
+  server: 188.114.97.6
   servername: lucasjow.us.ci
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   ws-opts:
     headers:
       Host: lucasjow.us.ci
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /?Telegram---mehrosaboran
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-9... #2'
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  ws-opts:
+    headers:
+      Host: lucasjow.us.ci
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP
 - encryption: none
   name: 🇸🇬[www.v2nodes.com] vless-SG-8...
   port: 80
@@ -108,25 +141,33 @@ proxies:
   tls: false
   type: vless
   uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-8... #1'
+  network: ws
+  port: 8443
+  server: 172.67.155.65
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  ws-opts:
+    headers:
+      Host: lucasjow.us.ci
+    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
 - name: '🇸🇬[www.v2nodes.com] vless-SG-8... #2'
   network: ws
   port: 443
-  server: cf.877774.xyz
+  server: 172.66.0.162
   servername: ccc.010304.xyz
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-    path: /fpsecurity=tls
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬[www.v2nodes.com] ss-SG-1603...
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 13.250.31.67
-  type: ss
+    path: /fp=chrome
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
@@ -171,95 +212,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|3.1MB/s
-  network: ws
-  port: 443
-  server: 172.64.155.209
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|3.2MB/s
-  network: ws
-  port: 443
-  server: 172.64.154.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇸🇬SG_3|1.6MB/s
+- name: 🇸🇬SG_1|1.2MB/s
   password: '!!str 1234'
   port: 2080
-  server: 18.143.167.6
+  server: 54.255.129.221
   skip-cert-verify: true
   type: http
   username: '1234'
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|1.1MB/s
-  network: ws
-  port: 443
-  server: 103.107.53.42
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🇸🇬SG_5|1.0MB/s
-  password: None
+- name: 🇸🇬SG_2|2.1MB/s
   port: 9090
-  server: 128.199.113.85
+  server: 128.199.121.61
   type: http
-- name: 🇸🇬SG_6|3.4MB/s
+- name: 🇸🇬SG_3|4.1MB/s
   password: '!!str 1234'
   port: 2080
-  server: 54.151.160.36
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_7|2.4MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 13.250.6.249
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_8|2.3MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 54.255.133.243
+  server: 13.229.54.109
   skip-cert-verify: true
   type: http
   username: '1234'

@@ -12,14 +12,18 @@ proxies:
     headers:
       Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
     path: /
-- encryption: none
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
-  network: tcp
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
   port: 10002
   server: connect.hondamotor.site
   tls: false
   type: vless
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
+  port: 1222
+  server: 23.81.36.148
+  tls: false
+  type: vless
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
 - client-fingerprint: chrome
   encryption: none
   name: '🇬🇧[www.v2nodes.com] vless-GB-1... #6'
@@ -43,54 +47,30 @@ proxies:
   port: 443
   server: 158.173.24.73
   type: ss
-- name: 🇬🇧GB_1|2.8MB/s
+- name: 🇬🇧GB_1|2.0MB/s
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|1.2MB/s
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇬🇧GB_2|3.7MB/s
+- name: 🇬🇧GB_3|3.9MB/s
   password: None
   port: 443
-  server: 37.120.233.50
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_3|3.2MB/s
+- name: 🇬🇧GB_4|2.8MB/s
   password: None
   port: 9443
   server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|3.2MB/s
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇬🇧GB_5|2.2MB/s
-  network: ws
-  port: 443
-  server: 185.186.246.8
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: 🇬🇧GB_6|2.0MB/s
-  password: None
-  port: 443
-  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
@@ -128,3 +108,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
+- name: GB_speednode_0014
+  port: 8443
+  server: 198.105.124.180
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
