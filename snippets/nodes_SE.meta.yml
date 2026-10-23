@@ -1,4 +1,14 @@
 proxies:
+- name: 🛸64@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram-vpnjey
+  port: 36264
+  server: 77.110.96.201
+  skip-cert-verify: true
+  sni: se.vpnjey2.dpdns.org
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇸🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -69,37 +79,22 @@ proxies:
   port: 8388
   server: 70.34.212.124
   type: ss
-- name: 🇸🇪SE_1|2.5MB/s
+- name: 🇸🇪SE_2|1.9MB/s
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_2|3.3MB/s
+- name: 🇸🇪SE_3|2.7MB/s
   password: None
   port: 443
   server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪 瑞典 | SWE
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60005
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- client-fingerprint: random
-  name: '🇸🇪 瑞典 | SWE #1'
-  network: ws
+- name: 🇸🇪SE_4|2.6MB/s
   port: 443
-  server: ct.877774.xyz
-  servername: se-sto.862400.xyz
+  server: 149.50.216.65
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: fffd4cb3-d5e2-4a11-936e-b8da5b240b8d
-  ws-opts:
-    headers:
-      Host: se-sto.862400.xyz
-    path: /announcement?ed=2048
+  type: http
