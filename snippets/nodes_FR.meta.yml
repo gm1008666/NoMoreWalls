@@ -93,7 +93,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🏳[www.v2nodes.com] trojan- #5'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
   network: ws
   password: humanity
   port: 443
@@ -104,27 +104,54 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: 🇫🇷FR_1|1.0MB/s
+- name: 🇫🇷FR_1|1.1MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇫🇷 法国 | FRA #1'
-  network: http
+- name: 🇫🇷FR_2|1.4MB/s
   port: 443
-  server: 13.38.32.188
+  server: 51.210.167.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_3|2.7MB/s
+  password: None
+  port: 8090
+  server: 82.96.128.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|1.0MB/s
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_5|2.7MB/s
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_6|1.1MB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇫🇷 法国 | FRA #1'
+  network: tcp
+  port: 22222
+  server: 15.224.60.172
   tls: false
   type: vless
   udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts:
+    path: /
 - name: FR_speednode_0005
   password: 'null'
   port: 23856
