@@ -1,5 +1,6 @@
 proxies:
 - name: '🇨🇦[www.v2nodes.com] vless-CA-1... #2'
+  network: tcp
   port: 8080
   server: milo.rubinaz.xyz
   tls: false
