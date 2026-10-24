@@ -150,21 +150,20 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.0MB/s
-  network: ws
-  password: humanity
+- name: 🇫🇷FR_4|1.1MB/s
+  password: None
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_5|1.6MB/s
+  password: None
   port: 443
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /assignment
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: FR_speednode_0005
   password: 'null'
   port: 23856
