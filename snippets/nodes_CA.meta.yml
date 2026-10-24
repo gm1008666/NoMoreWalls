@@ -43,10 +43,10 @@ proxies:
   port: 8882
   server: 51.79.49.116
   type: ss
-- name: 🇨🇦CA_1|1.9MB/s
+- name: 🇨🇦CA_2|2.1MB/s
   password: None
-  port: 9443
-  server: 149.88.98.81
+  port: 443
+  server: 23.169.224.34
   skip-cert-verify: true
   tls: true
   type: http

@@ -216,24 +216,26 @@ proxies:
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  name: '🇮🇹 意大利 | ITA #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #16'
+  name: '🇮🇹 意大利 | ITA #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
+  name: '🇮🇹 意大利 | ITA #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #7'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -241,12 +243,11 @@ proxies:
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #9'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -964,28 +965,22 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: android
-  name: 🇺🇸US_22|3.0MB/s
+- alterId: '2'
+  cipher: auto
+  name: 🇳🇱NL_2|3.1MB/s
   network: tcp
-  password: 6ab93ec68bd94b76
-  port: 20008
-  server: ui108.pacemakere.com
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: false
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- client-fingerprint: android
-  name: 🇺🇸US_23|1.6MB/s
-  network: tcp
-  password: 4fd2b10b6a754019
-  port: 20008
-  server: su106.izzzzzi.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - cipher: aes-256-gcm
   name: '🇷🇺 俄罗斯 | RUS #1'
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   port: 18443
-  server: 195.133.5.194
+  server: 176.32.33.153
   type: ss
   udp: true
