@@ -49,24 +49,29 @@ proxies:
   port: 19999
   server: 185.176.206.9
   type: ss
-- name: 🇬🇧GB_1|1.1MB/s
-  password: None
+- name: 🇬🇧GB_1|1.4MB/s
   port: 443
-  server: 212.102.63.61
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|1.6MB/s
+- name: 🇬🇧GB_2|2.2MB/s
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|3.4MB/s
   password: None
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_3|1.6MB/s
+- name: 🇬🇧GB_4|3.1MB/s
   password: None
-  port: 9443
-  server: 84.17.50.214
+  port: 443
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http

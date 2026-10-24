@@ -47,21 +47,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 212.227.144.37
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #3'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
   network: ws
   password: humanity
   port: 443
@@ -73,7 +59,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #4'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #3'
   network: ws
   password: humanity
   port: 443
@@ -84,7 +70,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #4'
   network: ws
   password: humanity
   port: 2053
@@ -96,7 +82,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #6'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
   network: ws
   password: humanity
   port: 443
@@ -108,14 +94,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #6'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
   network: ws
   password: humanity
   port: 443
@@ -127,7 +113,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #9'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
   network: ws
   password: humanity
   port: 443
@@ -139,7 +125,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #10'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #9'
   network: ws
   password: humanity
   port: 443
@@ -150,20 +136,51 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: 🇫🇷FR_4|1.1MB/s
+- name: 🇫🇷FR_3|2.7MB/s
   password: None
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_5|1.6MB/s
+- name: 🇫🇷FR_4|2.9MB/s
   password: None
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇫🇷FR_5|2.1MB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: FR_speednode_0006
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇫🇷FR_7|2.4MB/s
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_8|2.5MB/s
+  password: None
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_9|2.4MB/s
+  port: 1081
+  server: 107.191.47.162
+  skip-cert-verify: true
+  type: socks5
 - name: FR_speednode_0005
   password: 'null'
   port: 23856
@@ -173,13 +190,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: FR_speednode_0006
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: FR_speednode_0007
   port: 443
   server: 84.235.228.156
