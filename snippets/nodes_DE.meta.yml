@@ -9,13 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🐙62@oneclickvpnkeys
-  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
-  port: 2053
-  server: 2.26.48.112
-  sni: noway.luxes.network
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -50,7 +43,7 @@ proxies:
   type: vless
   uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
 - client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #12'
   network: ws
   port: 443
   server: wwww.qarvian.ir
@@ -86,12 +79,14 @@ proxies:
   port: 19999
   server: 185.176.204.18
   type: ss
-- name: 🇳🇱[www.v2nodes.com] trojan-NL-...
+- name: '🇩🇪 德国 | DEU #1'
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
+  skip-cert-verify: true
   sni: t.me/FuckTheWall
   type: trojan
+  udp: true
 - alpn:
   - http/1.1
   name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
@@ -121,15 +116,28 @@ proxies:
   server: de4.dedushka.top
   sni: de4.dedushka.top
   type: trojan
-- name: 🇩🇪DE_2|3.1MB/s|R002-260618
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - de.my-gaming.ir
+    path:
+    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
+  name: 🇩🇪DE_2|4.6MB/s
+  network: http
+  port: 9090
+  server: 188.245.184.137
+  type: vless
+  udp: true
+  uuid: fc1cab97-5935-42fa-8c76-f95b747c34c0
+  xudp: true
+- name: 🇩🇪DE_3|1.0MB/s
   password: None
-  port: 443
-  server: 87.249.132.97
+  port: 9443
+  server: 79.127.156.177
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
 - name: DK_speednode_0003
   port: 9002
   server: 158.173.154.1
@@ -137,110 +145,60 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_4|2.4MB/s
+- name: 🇩🇪DE_5|2.6MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|2.9MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.8MB/s
   password: None
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|3.9MB/s
+- name: 🇩🇪DE_8|4.3MB/s
   password: None
   port: 9002
   server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.0MB/s
+- name: 🇩🇪DE_9|1.4MB/s
   password: None
   port: 443
   server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_7|2.5MB/s
-  port: 9443
-  server: 79.127.156.177
+- name: 🇩🇪DE_10|2.4MB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_8|1.5MB/s
-  port: 9443
-  server: 213.177.229.161
+- name: 🇩🇪DE_11|3.1MB/s
+  port: 9002
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_9|2.9MB/s
+- name: 🇩🇪DE_12|2.1MB/s
+  password: None
   port: 443
-  server: 149.36.50.157
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU
-  port: 19552
-  server: 195.26.26.7
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 483a9bd7-a1d3-4cc9-ad90-761e063943c7
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #2'
-  network: ws
-  port: 443
-  server: 64.226.96.188
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #3'
-  network: ws
-  port: 443
-  server: 64.188.96.27
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #6'
-  network: ws
-  port: 465
-  server: hw3.divarkhaghazi.com
-  servername: hw3.divarkhaghazi.com.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  ws-opts:
-    headers:
-      Host: hw3.divarkhaghazi.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #1'
-  network: tcp
-  port: 19552
-  server: 195.26.26.7
-  tls: false
-  type: vmess
-  uuid: 483a9bd7-a1d3-4cc9-ad90-761e063943c7
 - name: DE_speednode_0001
   port: 443
   server: 213.109.163.119
