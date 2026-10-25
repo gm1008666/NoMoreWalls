@@ -32,11 +32,26 @@ proxies:
   type: vless
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
 - alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
+  network: ws
+  port: 443
+  server: vpn.kovira.site
+  servername: vpn.kovira.site
+  tls: true
+  type: vless
+  uuid: 22e6604e-0481-411f-8028-ffbd65f624b6
+  ws-opts:
+    headers:
+      Host: vpn.kovira.site
+    path: /ws-738d2d0c5eba7609f3c37de2
+- alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #9'
-  network: tcp
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #10'
   port: 8443
   server: node-uk.connectsuite.org
   servername: node-uk.connectsuite.org
@@ -55,61 +70,19 @@ proxies:
   port: 443
   server: 158.173.24.73
   type: ss
-- name: 🇬🇧GB_4|2.4MB/s
-  password: None
+- name: 🇬🇧GB_3|1.8MB/s
   port: 443
-  server: 37.120.233.50
+  server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_5|2.9MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|1.3MB/s
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_7|3.1MB/s
+- name: 🇬🇧GB_6|1.5MB/s
   password: None
   port: 9443
   server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_8|2.3MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_9|1.2MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '🇬🇧 英国 | GBR #6'
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: firefox.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26ee2529-e446-41c2-81e3-cbbce04b8347
-  ws-opts:
-    headers:
-      Host: albaniaoijji.global.ssl.fastly.net
-    path: /
 - name: GB_speednode_0009
   port: 8443
   server: 198.105.124.180

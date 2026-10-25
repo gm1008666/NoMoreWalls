@@ -43,7 +43,7 @@ proxies:
   type: vless
   uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
 - client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #12'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #13'
   network: ws
   port: 443
   server: wwww.qarvian.ir
@@ -79,14 +79,12 @@ proxies:
   port: 19999
   server: 185.176.204.18
   type: ss
-- name: '🇩🇪 德国 | DEU #1'
+- name: 🇳🇱[www.v2nodes.com] trojan-NL-...
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
-  skip-cert-verify: true
   sni: t.me/FuckTheWall
   type: trojan
-  udp: true
 - alpn:
   - http/1.1
   name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
@@ -116,89 +114,32 @@ proxies:
   server: de4.dedushka.top
   sni: de4.dedushka.top
   type: trojan
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - de.my-gaming.ir
-    path:
-    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
-  name: 🇩🇪DE_2|4.6MB/s
-  network: http
-  port: 9090
-  server: 188.245.184.137
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 443
+  server: 199.232.239.239
+  servername: firefox.com
+  tls: true
   type: vless
   udp: true
-  uuid: fc1cab97-5935-42fa-8c76-f95b747c34c0
-  xudp: true
-- name: 🇩🇪DE_3|1.0MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: DK_speednode_0003
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: 8e6efaba-ba3d-49ec-98aa-c8f9baaf1d17
+  ws-opts:
+    headers:
+      Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
+    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
+- name: '🇩🇪 德国 | DEU #4'
+  network: tcp
+  port: 27774
+  server: 5.175.205.190
+  tls: false
+  type: vless
   udp: true
-- name: 🇩🇪DE_5|2.6MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|2.9MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.8MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|4.3MB/s
-  password: None
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|1.4MB/s
-  password: None
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_10|2.4MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_11|3.1MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_12|2.1MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: 653137c6-474e-4a3d-9a20-5a5afb3d4a4f
+  ws-opts:
+    path: /
 - name: DE_speednode_0001
   port: 443
   server: 213.109.163.119

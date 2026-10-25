@@ -59,10 +59,3 @@ proxies:
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   ws-opts:
     path: /merky-connect/de6/
-- name: 🇸🇪SE_3|2.0MB/s
-  password: None
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
