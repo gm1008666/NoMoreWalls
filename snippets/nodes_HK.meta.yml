@@ -24,7 +24,6 @@ proxies:
   password: XuMweB2PWs
   port: 45464
   server: 2.27.109.179
-  sni: 2.27.109.179.sslip.io
   type: trojan
 - alterId: 2
   cipher: auto
@@ -137,9 +136,13 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|3.5MB/s
-  port: 10007
-  server: 118.25.131.160
+- name: 🇭🇰HK_1|2.3MB/s
+  port: 1080
+  server: 47.238.126.208
+  type: socks5
+- name: 🇭🇰HK_2|4.9MB/s
+  port: 31343
+  server: 120.232.204.58
   skip-cert-verify: true
   tls: true
   type: http
