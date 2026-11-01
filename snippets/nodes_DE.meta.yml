@@ -119,51 +119,64 @@ proxies:
   server: 193.108.119.78
   sni: www.iloverussia2026.com
   type: trojan
-- name: DK_speednode_0006
-  port: 9002
-  server: 158.173.154.1
+- name: 🇩🇪DE_1|1.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇩🇪DE_2|1023KB/s
+- name: 🇩🇪DE_2|2.1MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|1.5MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.4MB/s
   password: None
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_3|3.0MB/s
+- name: 🇩🇪DE_5|2.0MB/s
   password: None
-  port: 9002
-  server: 158.173.154.3
+  port: 9443
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #1'
-  network: ws
-  port: 443
-  server: 199.232.239.239
-  servername: firefox.com
+- name: 🇩🇪DE_6|2.1MB/s
+  port: 8443
+  server: 188.120.225.125
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- client-fingerprint: chrome
+  name: 🇩🇪DE_8|1.4MB/s
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  type: trojan
   udp: true
-  uuid: 40694ced-9a8c-42fd-f5f8-3ac3c8b27fc2
-  ws-opts:
-    headers:
-      Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
-    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
 - alpn:
   - h3
-  client-fingerprint: edge
-  name: '🇩🇪 德国 | DEU #2'
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #1'
   network: xhttp
   port: 443
-  server: 151.101.131.6
-  servername: apps.apple.com
+  server: 151.101.67.6
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
@@ -172,6 +185,98 @@ proxies:
     host: kkbr.tm
     mode: auto
     path: /crownnet
+- alpn:
+  - h3
+  auth: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  down: 200
+  name: 🇩🇪 德国 | DEU 2
+  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  port: 443
+  server: 9.247.54.68
+  skip-cert-verify: true
+  sni: nl1.obxodvpn.us
+  type: hysteria2
+  udp: true
+  up: 100
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 3
+  password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+  port: 11105
+  server: de01.dw.sh-cloudflare.sbs
+  skip-cert-verify: true
+  sni: de01.shanhai.me
+  type: anytls
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 465
+  server: hw14.roghanmo.com
+  servername: hw14.roghanmo.com.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8
+  ws-opts:
+    headers:
+      Host: hw14.roghanmo.com
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: safari
+  name: '🇩🇪 德国 | DEU #4'
+  network: xhttp
+  port: 443
+  server: 5.42.118.163
+  servername: 5.42.118.163
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/twru01/
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #5'
+  network: tcp
+  port: 63053
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  ws-opts:
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #6'
+  network: ws
+  port: 465
+  server: hw5.roghanmo.com
+  servername: hw5.roghanmo.com.
+  tls: true
+  type: vless
+  udp: true
+  uuid: a356fa77-7199-417a-80dd-0c0925789161
+  ws-opts:
+    headers:
+      Host: hw5.roghanmo.com
+    path: /
+- name: '🇩🇪 德国 | DEU #2'
+  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  port: 443
+  server: 9.247.54.68
+  skip-cert-verify: true
+  sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

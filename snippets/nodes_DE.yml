@@ -30,3 +30,12 @@ proxies:
   server: 193.108.119.78
   sni: www.iloverussia2026.com
   type: trojan
+- client-fingerprint: chrome
+  name: 🇩🇪DE_8|1.4MB/s
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  type: trojan
+  udp: true
