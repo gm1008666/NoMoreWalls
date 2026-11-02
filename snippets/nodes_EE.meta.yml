@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 🇪🇪[www.v2nodes.com] vless-EE-1...
+  port: 443
+  server: 185.225.205.53
+  tls: false
+  type: vless
+  uuid: 3d526c7f-059c-4e2b-b09a-8569b268935b
