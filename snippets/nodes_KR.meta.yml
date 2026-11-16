@@ -3,14 +3,13 @@ proxies:
   network: ws
   port: 25555
   server: 152.69.226.63
-  servername: 152.69.226.63
   tls: false
   type: vless
   uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: '🇰🇷[www.v2nodes.com] vless-KR-3... #5'
+  name: '🇰🇷[www.v2nodes.com] vless-KR-3... #4'
   network: ws
   port: 8443
   server: 64.110.79.66
@@ -29,3 +28,11 @@ proxies:
   skip-cert-verify: true
   sni: connectgraduateswithjobopeningsandgrowprofessionally.com
   type: trojan
+- name: 🇰🇷 韩国 | KOR
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 13.125.5.180
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
